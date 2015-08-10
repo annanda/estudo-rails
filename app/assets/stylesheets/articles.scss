@@ -16,6 +16,25 @@ h1 {
     color: $primary-color;
 }
 
-a {
+a:link, a:visited {
     color: $primary-color;
+    text-decoration: none;
+}
+a:hover {
+    color: #FFF;
+    background: $primary-color;
+
+}
+table{
+    border-collapse: collapse;
+    width: 50%;
+}
+th {
+    height: 50px;
+    background-color:$primary-color;
+    color: #fff;
+}
+td {
+    padding: 15px;
+    border: 1px solid $primary-color;
 }
