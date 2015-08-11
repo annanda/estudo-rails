@@ -29,7 +29,7 @@ class ArticlesController < ApplicationController
         @article = Article.find(params[:id])
 
         if @article.update(articles_params)
-            reditect_to @article
+            redirect_to @article
         else
             render 'edit'
         end
